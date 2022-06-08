@@ -1,0 +1,314 @@
+/*
+	Theme Name: Social Brothers new
+	Text Domain Social Brothers
+	Version: 1,0
+	Description: Blog theme Social Brothers
+	Tags:Responsive, Blog
+	Author: Vedat Aydin
+	Author URI: https://vedataydin.nl
+	
+*/
+
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #ee3577;
+    --red: #dc3545;
+    --orange: #f68e62;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #767575;
+    --gray-dark: #434242;
+    --primary: #6f42c1;
+    --secondary: #4f4f4f;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #c2c2c2;
+    --lightgray: #eeeeee;
+    --dark: #434242;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    /* Font Sizes */
+    --font-normal: 1em;
+    --font-small: 0.8125rem;
+    /* Sidebar */
+    --sidebar-width: 280px;
+    --content-max-width: 860px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+header{
+	font-family: Proxima Nova Semibold;
+	font-size: 24px;
+	position: relative;
+    max-width: 100%;
+}
+
+body{
+	font: Proxima Nova Bold;
+}
+
+header nav{
+	position: absolute;
+	/*color: white;*/
+}
+
+#site-header{
+	position: relative;
+    /*z-index: -999;*/
+    height: 230px;
+    max-width: 100%;
+}
+#site-header header{
+    position:absolute; 
+    text-align: center; 
+    width: 100%;
+}
+#site-header header h1{
+    /*text-decoration: none;*/
+    color: black;
+}
+img#site-header{
+    max-width: 100%;
+    /*margin: 100px;*/
+}
+
+footer{
+	background-color:#262626;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+img.custom-logo {
+    max-height: 50px; !important;
+    max-width: 210px;
+    position: relative;
+    top: 0px;
+}
+
+.logo{
+    max-height: 50px; !important;
+    max-width: 210px;
+    position: relative;
+    top: 0px;
+}
+
+#banner{
+    position: relative;
+    /*height: 600px;*/
+    max-width: 100%;
+}
+.headerimage{
+    background-image: url("images/headers/background.png");
+}
+#navbarTogglerDemo02{
+    margin: 0px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    z-index: 9999;
+    /*float: right;*/
+}
+.menu{
+    /*text-align: right;*/
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+.menu ul{
+    /*float: right;*/
+    right: 0;
+    list-style-type: none;
+}
+.menu ul li{
+    float: right;
+    padding: 10px;
+
+}
+.menu ul li a{
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+
+    color: red;
+    /*text-decoration: underline;*/
+    
+}
+/*.menu ul li a:active{
+
+    text-decoration: underline;
+}*/
+header .nav-item{
+    padding: 10px;
+    text-decoration: none;
+}
+header .nav-item a {
+    text-decoration: none;
+    color: white;
+}
+/*[page nav*/
+.nav-links{
+    margin: auto;
+    width: 50%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.nav-links a,
+.nav-links a:hover,
+.nav-links.active a,
+.nav-links.disabled {
+    color: #fff;
+    text-decoration:none;
+}
+ 
+.nav-links{
+    display: inline;
+}
+ 
+.nav-links a,
+.nav-links a:hover,
+.nav-links span,
+.nav-links.disabled {
+    color: black;
+    /*background-color: #F2F2F2;*/
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    padding: 0.75rem;
+}
+ 
+.nav-links a:hover,
+.nav-links span {
+    background-color: #F2F2F2;
+    padiing
+}
+
+/*body{
+    background-color: red;
+}*/
+.container{
+    padding: 0px;
+}
+#maincontainer{
+    background-color: #F4F4F4;
+    padding: 25px;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+}
+article {
+    padding: 0px;
+}
+
+.btn{
+    background-color:#F27623;
+    border-color: #F27623;
+    border-radius: 15px;
+    width: 50%;
+    margin: 15px;
+}
+.col-lg-6 ul{
+    /*padding: 10px;*/
+    padding: 30px!important;
+
+    background-color: white;
+}
+.col-lg-6 ul li{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 10px grey;
+
+}
+.col-lg-6 ul li a{
+    color: black;
+    font-size: 25px;
+    font-style: bold;
+}
+
+.col-lg-6 ul li img{
+    width: 100%;
+}
+
+.col-lg-2{
+    background-color: white;
+    padding: 0px;
+    margin: auto;
+    box-shadow: 1px 1px 10px grey;
+
+}
+.somePosts{
+    background-color: white;
+    height: 100%;
+
+}
+
+.col-lg-2 img{
+    width: 100%;
+}
+.col-lg-2 a{
+    color: black;
+}
+.col-lg-2 a{
+    /*float: right;*/
+}
+
+.navigation{
+    margin-top: 30px;
+}
+.post{
+    background-color: white;
+    padding: 10px;
+}
+.content-header{
+    float: right;
+    padding:10px;
+    font-size: 20px;
+}
+
+/*label { display: block; width: 100% ; }*/
+input,select{
+    display: block; 
+    width: 100%; 
+    height: 40px;
+    background-color: #FAFAFA;
+    border-width: 0px;
+}
+input,
+textarea{
+    display: block; 
+    width: 100%; 
+    background-color: #FAFAFA;
+    border-width: 0px;
+    padding: 5px;
+}
+
+.card{
+    min-height: 150px;
+    top: 0px;
+    /*min-width: 300px;*/
+}
+.card.card-body{
+    width: 100%;
+    padding: 0px;
+}
